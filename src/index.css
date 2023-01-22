@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap');
+
+:root {
+  --text-size: 1.4rem;
+  --h1-size: 3rem;
+}
+
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+
+input {
+  outline: none;
+}
+
+body {
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(215, 227, 250, 0.747);
+}
+
+.app {
+  user-select: none;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 10rem 1fr 4rem;
+ }
+
+
+
+.page-title {
+  padding-left: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: var(--h1-size);
+}
+
+.page-subtitle {
+  font-size: 1.8rem;
+}
+
+.list-wrap {
+  
+  padding-top: 2rem;
+}
+
+.list-item {
+  font-size: var(--text-size);
+  color: black;
+}
+
+.about-item {
+  padding-top: 2rem;
+  font-size: 3rem;
+}
+
+.page-p {
+  font-size: var(--text-size);
+  padding: 10px;
+  color: black;
+}
+
+.page-loader {
+  font-size: 1.5rem;
+
+}
+
+.checkbox {
+  font-size: var(--text-size);
+}
+
+.button {
+  padding: 5px 20px;
+  font-size: 1.2rem;
+  background-color: orange;
+  border: .2px solid black;
+  color: black;
+  text-transform: uppercase;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0px 0px 10px orange;
+}
+
+.green {
+  background-color: green;
+  color: white;
+  border: .2px solid white;
+}
+
+.green:hover {
+  box-shadow: 0px 0px 10px green;
+}
+
+.mg-wrap {
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 1080px) {
+  .page-title {
+    padding-left: 1rem;
+    font-size: 2rem;
+  }
+  .page-p {
+    font-size: 2rem;
+    padding: 10px;
+  }
+}
+.left {
+  padding: 0px;
+}
+
+.input-in {
+  padding: 7px ;
+  border: 1px solid green;
+  border-radius: 4px;
+}
+
+.message {
+  color: rgb(100, 145, 33);
+  font-size: 1.8rem;
+}
+
+.red {
+  color: red;
+}
+
+.input-search {
+  padding: 10px 20px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06)
+  
+}
+
+.mg-top {
+  margin-top: 10px;
+}
+
+.input-wrap {
+  margin: 0 20px 0 5px;
+ }
+
+ .header ul {
+  text-transform: uppercase;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+ }
+
+ .header ul li{
+  color: rgb(247, 108, 28);
+  font-size: 2rem;
+ }
+
+
+ .footer {
+  color: rgb(247, 108, 28);
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+ }
+
+
+ .header ul .active-link li   {
+  text-decoration: overline rgb(247, 108, 28);;
+ }
+ 
+ .Error {
+  text-align: center;
+ }
+
+ main {
+  padding: 10px 2rem;
+ }
